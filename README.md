@@ -5,6 +5,7 @@
 
 ## 项目结构
 >project
+>a.scss
 >>sass
 >>>component
 >>>helpers
