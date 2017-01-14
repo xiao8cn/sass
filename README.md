@@ -1,5 +1,5 @@
 # sass
-基于sass 模块化开发css demo
+基于sass的技术，模块化开发css
 ## install
 官方安装地址：http://sass-lang.com/install
 
