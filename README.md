@@ -4,12 +4,16 @@
 官方安装地址：http://sass-lang.com/install
 
 ## 项目结构
->project
->a.scss
->>sass
->>>component
->>>helpers
->>>themes
+|--project    
+|----sass   
+|------component    
+|--------button.scss    
+|------helpers    
+|--------mixin.scss   
+|------themes   
+|--------theme.scss   
+|----main.scss    
+|--index.html   
 
 ## code
 部分 scss 代码展示
