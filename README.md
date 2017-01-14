@@ -1,8 +1,8 @@
 # sass
 sass
 
-install
+## install
 http://sass-lang.com/install
 
-start
+## start
 npm run sass
