@@ -1,0 +1,8 @@
+@mixin btn-color($color){
+  border-color: $color;
+  background-color: $color;
+}
+
+@mixin col_md($size){
+  width:$size/12*100%;
+}

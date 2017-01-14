@@ -1,0 +1,89 @@
+@import "../themes/theme";
+@import "../helpers/mixin";
+
+.btn{
+  border-radius: 0.2rem;
+  border:1px solid $btn_color;
+  margin: 0.2rem;
+  text-align: center;
+  cursor: pointer;
+  font-size: $btn_default_font_size;
+  display: inline-block;
+  text-transform: none;
+  padding: 5px 10px 5px 10px;
+  background-color: $btn_color;
+  color: $btn_font_color;
+}
+
+.btn-red{
+  @extend .btn;
+  @include btn-color(orangered);
+}
+
+.btn-red:hover{
+  @include btn-color(red);
+}
+
+.btn-red:active{
+  @include btn-color(darkred);
+}
+
+.btn-red-lager{
+  @extend .btn-red;
+  font-size: $btn_lager_font_size;
+}
+
+.btn-red-small{
+  @extend .btn-red;
+  font-size: $btn_small_font_size;
+}
+
+.btn-blue{
+  @extend .btn;
+  @include btn-color(deepskyblue);
+}
+
+.btn-blue:hover{
+  @extend .btn-blue;
+  @include btn-color(blue);
+}
+
+.btn-blue:active{
+  @extend .btn-blue;
+  @include btn-color(dodgerblue);
+}
+
+.btn-blue-lager{
+  @extend .btn-green;
+  font-size: $btn_lager_font_size;
+}
+
+.btn-blue-small{
+  @extend .btn;
+  font-size: $btn_small_font_size;
+}
+
+.btn-green{
+  @extend .btn;
+  @include btn-color(green);
+}
+
+.btn-green:hover{
+  @extend .btn-green;
+  @include btn-color(greenyellow);
+}
+
+.btn-green:active{
+  @extend .btn-green;
+  @include btn-color(lightgreen);
+}
+
+.btn-green-lager{
+  @extend .btn-green;
+  font-size: $btn_lager_font_size;
+}
+
+.btn-green-small{
+  @extend .btn;
+  font-size: $btn_small_font_size;
+}

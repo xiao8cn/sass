@@ -1,0 +1,63 @@
+@import "../helpers/mixin";
+
+.row{
+  padding: 5px;
+  width:100%;
+}
+
+.col-md{
+  float: left;
+}
+
+.col-md-12{
+  width:100%;
+  clear: both;
+}
+
+.col-md-1{
+  @extend .col-md;
+  @include col_md(1);
+}
+
+.col-md-2{
+  @extend .col-md;
+  @include col_md(2);
+}
+
+.col-md-3{
+  @extend .col-md;
+  @include col_md(3);
+}
+
+.col-md-4{
+  @extend .col-md;
+  @include col_md(4);
+}
+.col-md-5{
+  @extend .col-md;
+  @include col_md(5);
+}
+.col-md-6{
+  @extend .col-md;
+  @include col_md(6);
+}
+.col-md-7{
+  @extend .col-md;
+  @include col_md(7);
+}
+.col-md-8{
+  @extend .col-md;
+  @include col_md(8);
+}
+.col-md-9{
+  @extend .col-md;
+  @include col_md(9);
+}
+.col-md-10{
+  @extend .col-md;
+  @include col_md(10);
+}
+.col-md-11{
+  @extend .col-md;
+  @include col_md(11);
+}
