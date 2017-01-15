@@ -1,7 +1,13 @@
 # sass
 基于sass的技术，模块化开发css
 ## install
-官方安装地址：http://sass-lang.com/install
+Sass官网：http://sass-lang.com/install
+
+* 环境依赖ruby
+* linux & macOs install
+```shell
+sudo gem install sass
+```
 
 ## 项目结构
 * project    
