@@ -1,5 +1,5 @@
 # sass
-基于[sass](http://sass-lang.com/install)的技术，模块化开发css
+基于[Sass](http://sass-lang.com/install)的技术，模块化开发css
 ## install
 * 环境依赖[ruby](http://rubyinstaller.org)
 * linux & macOs install
