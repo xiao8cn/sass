@@ -3,7 +3,7 @@
 ## install
 Sass官网：http://sass-lang.com/install
 
-* 环境依赖ruby
+* 环境依赖[ruby](http://rubyinstaller.org)
 * linux & macOs install
 ```shell
 sudo gem install sass
