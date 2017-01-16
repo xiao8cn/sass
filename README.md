@@ -20,7 +20,7 @@ sudo gem install sass
   * index.html   
 
 ## code
-部分 scss 代码展示
+部分 scss 代码展示  
 main.scss
 ```scss
 @import "layout/layout";
